@@ -63,7 +63,6 @@
     
     //Finshed loading the data, reset the refresh control
     [self.pongRefreshControl finishedLoading];
-    //lol
 }
 - (void)viewWillDisappear:(BOOL)animated
 {
