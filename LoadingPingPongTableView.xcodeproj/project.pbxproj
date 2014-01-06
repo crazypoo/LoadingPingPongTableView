@@ -21,6 +21,7 @@
 		CC02A51C187A4BD90005C5A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC02A4FE187A4BD90005C5A7 /* UIKit.framework */; };
 		CC02A524187A4BD90005C5A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC02A522187A4BD90005C5A7 /* InfoPlist.strings */; };
 		CC02A526187A4BD90005C5A7 /* LoadingPingPongTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC02A525187A4BD90005C5A7 /* LoadingPingPongTableViewTests.m */; };
+		CC02A531187A4E5C0005C5A7 /* BOZPongRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CC02A530187A4E5C0005C5A7 /* BOZPongRefreshControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CC02A521187A4BD90005C5A7 /* LoadingPingPongTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoadingPingPongTableViewTests-Info.plist"; sourceTree = "<group>"; };
 		CC02A523187A4BD90005C5A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CC02A525187A4BD90005C5A7 /* LoadingPingPongTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingPingPongTableViewTests.m; sourceTree = "<group>"; };
+		CC02A52F187A4E5C0005C5A7 /* BOZPongRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOZPongRefreshControl.h; sourceTree = "<group>"; };
+		CC02A530187A4E5C0005C5A7 /* BOZPongRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOZPongRefreshControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		CC02A500187A4BD90005C5A7 /* LoadingPingPongTableView */ = {
 			isa = PBXGroup;
 			children = (
+				CC02A52F187A4E5C0005C5A7 /* BOZPongRefreshControl.h */,
+				CC02A530187A4E5C0005C5A7 /* BOZPongRefreshControl.m */,
 				CC02A509187A4BD90005C5A7 /* AppDelegate.h */,
 				CC02A50A187A4BD90005C5A7 /* AppDelegate.m */,
 				CC02A50C187A4BD90005C5A7 /* Main.storyboard */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC02A511187A4BD90005C5A7 /* ViewController.m in Sources */,
+				CC02A531187A4E5C0005C5A7 /* BOZPongRefreshControl.m in Sources */,
 				CC02A50B187A4BD90005C5A7 /* AppDelegate.m in Sources */,
 				CC02A507187A4BD90005C5A7 /* main.m in Sources */,
 			);

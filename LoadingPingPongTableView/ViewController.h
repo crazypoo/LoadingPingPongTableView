@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "BOZPongRefreshControl.h"
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+{
+    
+}
+@property (strong, nonatomic) BOZPongRefreshControl* pongRefreshControl;
 
 @end
